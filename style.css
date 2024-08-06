@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin:0;
+}
+nav{  
+background-color: yellow;
+display: flex;
+justify-content: space-between;
+padding: 0 1rem;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle a{
+    text-decoration: none;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    border: none;
+    border-radius: 0.8rem;
+    padding: 0.5rem 1rem ;
+    background-color: black;
+    color:white;
+}
+#home{
+    background-image: url("https://images.pexels.com/photos/5718104/pexels-photo-5718104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+#home ,h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 1.3rem;
+    font-size: 64px;
+    font-family:monospace;
+}
+.hero{
+    background-color: rgba(0, 0, 0, 0.512);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+ #home h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 50px
+
+ }
